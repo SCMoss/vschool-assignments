@@ -1,0 +1,97 @@
+/*body {;*/
+/*background-image: url(images/mario.jpeg);*/
+/*!*background-repeat: no-repeat;*!*/
+/*background-size: 90%;*/
+/*}*/
+@font-face {
+    font-family: SuperMario256;
+    src: url(font/SuperMario256.ttf);
+}
+
+body {
+    font-family: SuperMario256;
+    background: url(images/mario.jpeg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    opacity: 0.92;
+}
+
+h1, #total {
+    margin-left: 10px;
+    font-size: 500%;
+    size: 350px;
+    color: red;
+    background-color: blue;
+    text-align: center;
+    text-shadow: 0 0 .7em yellow;
+    padding: 7%;
+}
+
+img {
+    display:inline-block;
+    margin-right: 10%;
+    height: auto;
+    width: auto;
+    max-width: 168px;
+    max-height: 300px;
+}
+
+/*#mainHeadingTitle {*/
+.page-header {
+    background-color: transparent;
+    /*font: Helvetica;*/
+    color: yellow;
+    font-size: 20%;
+    height: 150px;
+    align: center;
+}
+
+#firstGoomba {
+    margin: 20px;
+    margin-top: 165px;
+    border: 50px solid transparent;
+    border-top: none;
+    /*padding: 45px;*/
+    border-image: url(images/stalk.png) 70 70 70 70;
+    border-image-repeat: repeat;
+}
+
+#secondGoomba {
+    margin: 20px;
+    margin-top: 165px;
+    border: 50px solid transparent;
+    border-top: none;
+    /*padding: 15px;*/
+    border-image: url(images/stalk.png) 70 70 70 70;
+    border-image-repeat: repeat;
+}
+
+#thirdGoomba {
+    /*margin: 10px;*/
+    margin-top: 205px;
+    border: 50px solid transparent;
+    border-top: none;
+    /*padding: 15px;*/
+    border-image: url(images/stalk.png) 70 70 70 70;
+    border-image-repeat: repeat;
+}
+
+figcaption {
+    font-size: 105%;
+    text-align: center;
+    background-color: red;
+    color: midnightblue;
+    margin-bottom: -10px;
+}
+
+.footer {
+    text-align: center;
+    background-color: yellow;
+    color: red;
+    margin-bottom: -10px;
+}
+#total {
+    background-color: yellow;
+}

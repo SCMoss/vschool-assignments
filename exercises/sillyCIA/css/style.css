@@ -1,0 +1,27 @@
+h1 {
+	color: darkgreen;
+	font-family: Georgia;
+	text-align: center;
+}
+
+h4{
+	font-family: Georgia;
+	text-align: center;
+}
+
+img {
+	float: left;
+	padding-right: 20px
+}
+
+p {
+	line-height: 25px;	
+}
+
+a {
+	text-decoration: none;
+}
+
+.disclaimer {
+	text-transform: uppercase;
+}

@@ -1,0 +1,34 @@
+h1 {
+	text-align: center;
+	font-family: Helvetica;
+	font-style: italic;
+	background-color: purple;
+	height: 1%;
+	 
+}
+
+nav{
+	background-color: silver;
+	padding: .95%;
+
+}
+
+.pictures{
+	text-align: center;
+	display: inline-block;
+	width: 100%;
+}
+
+figcaption{
+	text-align: center;
+}
+ 
+figure, img {
+	display: inline;
+}
+
+footer{
+	background-color: purple;
+}
+
+
